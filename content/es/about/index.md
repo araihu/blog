@@ -1,6 +1,6 @@
 +++
 title = "Acerca de Arai Hû"
-description = "Notas sobre la construcción de software práctico y abierto en Go."
+description = "Conoce Arai Hû y sus proyectos independientes en Go para interfaces renderizadas en el servidor, publicación de APIs y monitorización autoalojada."
 language = "es"
 +++
 
