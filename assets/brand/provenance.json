@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/araihu/assets",
+  "release": "v0.2.6",
+  "archive_sha256": "2d86ebd0c0724e4293175186e80e7108fd8e813ed885f66bb192bc871b64d16b",
+  "files": {
+    "dark-transparent-optical.svg": "a40db89daa74b5de6e5d4a5c53e8540239b22bf1d6c864ad2214d0b9329e6a5d",
+    "NOTICE": "a2352282b84512d3d19605db486143ae092bc54a0b26e87f3ee4b0968fbf998e",
+    "light-transparent-optical.svg": "3f852cc8be015f02bab5c3037a591317a234de2625c9031be89df2c6f4898671",
+    "favicon-32.png": "59726cacd176edc73aa95f486ca017245fa5061e3fbf605730fc2759d2ff35da",
+    "Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "social.jpg": "03265453102228decd5b2f9e6dfc582628c829172fba1c958d33f370f2a4e53d",
+    "licenses/developer-icons-MIT.txt": "b479c9dc8a44b8766c4272faeb431fc7864026a01d9f56e75be9c6452860b88f",
+    "licenses/heroicons-MIT.txt": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+  },
+  "source_paths": {
+    "favicon-32.png": "platform/web/araihu/favicon-32.png",
+    "Apache-2.0.txt": "licenses/Apache-2.0.txt",
+    "light-transparent-optical.svg": "brand/araihu/logo/light-transparent-optical.svg",
+    "dark-transparent-optical.svg": "brand/araihu/logo/dark-transparent-optical.svg",
+    "NOTICE": "NOTICE",
+    "licenses/heroicons-MIT.txt": "licenses/heroicons-MIT.txt",
+    "licenses/developer-icons-MIT.txt": "licenses/developer-icons-MIT.txt"
+  },
+  "social_source": {
+    "repository": "https://github.com/araihu/ahairu",
+    "revision": "b29a247659ee38f35d2399ea0a330e2a4ceb3f76",
+    "path": "site/assets/social/araihu-storm-v1.jpg"
+  }
+}
