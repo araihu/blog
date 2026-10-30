@@ -9,6 +9,7 @@ page_types:
   /about/: AboutPage
 files:
   - {source: assets/brand, target: assets/brand}
+  - {source: assets/flags, target: assets/flags}
 locales:
   pt-BR:
     articles: "Artigos"

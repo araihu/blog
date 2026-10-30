@@ -19,6 +19,12 @@ site:
 locales:
   default: en
   supported: [en, pt-BR, es]
+  selector:
+    enabled: true
+    flags:
+      en: assets/flags/us.svg
+      pt-BR: assets/flags/br.svg
+      es: assets/flags/es.svg
 publication:
   date_format: 2006-01-02
 layout:
