@@ -1,7 +1,9 @@
 +++
-title = "Sobre Seu Nome"
-description = "Conheça Seu Nome, autor deste blog."
+title = "About Arai Hû"
+description = "Notes on building practical, open software in Go."
+language = "en"
 +++
-Sou Seu Nome. Este é meu espaço para compartilhar ideias e experiências.
 
-Substitua esta apresentação pela sua história antes de publicar.
+Arai Hû brings together independent, open software projects built in Go. Our work includes server-rendered interfaces, API publishing and self-hosted monitoring. Each project aims to be useful on its own and work well with the others.
+
+Read the [organization website](https://araihu.com/en/) and [source repositories](https://github.com/araihu). This blog uses institutional authorship when an article speaks for Arai Hû. Individual contributions can carry their own author identity.

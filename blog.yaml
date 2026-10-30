@@ -2,26 +2,49 @@ version: 1
 home_limit: 6
 unsafe_html: false
 authors:
-  Seu Nome:
+  Arai Hû:
     url: /about/
+    type: Organization
 page_types:
-  /about/: ProfilePage
-labels:
-  articles: Artigos
-  blog: Artigos
-  tags: Assuntos
-  categories: Categorias
-  categories_body: Encontre publicações por [assunto](/tags/).
-  not_found: Página não encontrada
-  not_found_body: Este endereço não existe. [Voltar ao início](/).
-  all_articles: Ver todos os artigos
-  series: Série
-  part: Parte
-  series_index: Partes desta série
-  continue_series: Continuar leitura
-  start_series: Começar série
-  start_first: Ler primeira parte
-  previous: Anterior
-  next: Próximo
-  redirecting: Redirecionando
-  open_article: Ler artigo
+  /about/: AboutPage
+files:
+  - {source: assets/brand, target: assets/brand}
+locales:
+  pt-BR:
+    articles: "Artigos"
+    blog: "Artigos"
+    tags: "Assuntos"
+    categories: "Categorias"
+    categories_body: "Encontre publicações por [assunto](/pt-br/tags/)."
+    not_found: "Página não encontrada"
+    not_found_body: "Este endereço não existe. [Voltar ao início](/pt-br/)."
+    all_articles: "Ver todos os artigos"
+    series: "Série"
+    part: "Parte"
+    series_index: "Partes desta série"
+    continue_series: "Continuar leitura"
+    start_series: "Começar série"
+    start_first: "Ler primeira parte"
+    previous: "Anterior"
+    next: "Próximo"
+    redirecting: "Redirecionando"
+    open_article: "Ler artigo"
+  es:
+    articles: "Artículos"
+    blog: "Artículos"
+    tags: "Temas"
+    categories: "Categorías"
+    categories_body: "Encuentra publicaciones por [tema](/es/tags/)."
+    not_found: "Página no encontrada"
+    not_found_body: "Esta dirección no existe. [Volver al inicio](/es/)."
+    all_articles: "Ver todos los artículos"
+    series: "Serie"
+    part: "Parte"
+    series_index: "Partes de esta serie"
+    continue_series: "Continuar la lectura"
+    start_series: "Empezar la serie"
+    start_first: "Leer la primera parte"
+    previous: "Anterior"
+    next: "Siguiente"
+    redirecting: "Redirigiendo"
+    open_article: "Leer artículo"

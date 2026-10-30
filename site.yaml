@@ -4,32 +4,38 @@ output: public
 assets: local
 offline: true
 site:
-  name: Meu blog
-  description: Ideias e experiências para compartilhar.
-  base_url: https://blog.example
+  name: Arai Hû
+  description: Notes on building practical, open software in Go.
+  base_url: https://blog.araihu.com
+  repository_url: https://github.com/araihu/blog
   home: index.md
-  logo: assets/logo.svg
-  icon: assets/mark.svg
+  hide_name: true
+  logo: assets/brand/light-transparent-optical.svg
+  logo_dark: assets/brand/dark-transparent-optical.svg
+  icon: assets/brand/favicon-32.png
   social_image:
-    path: assets/social.png
-    alt: Um caderno aberto sobre um fundo azul.
+    path: assets/brand/social.jpg
+    alt: Arai Hû
 locales:
-  default: pt-BR
-  supported: [pt-BR]
+  default: en
+  supported: [en, pt-BR, es]
 publication:
-  date_format: 02/01/2006
+  date_format: 2006-01-02
 layout:
   kind: docs
   default: {sidebar: false, toc: false, pagination: false}
 navigation:
   links:
-    - {label: Artigos, href: /blogs/}
-    - {label: Sobre, href: /about/}
+    - {label: Articles, href: /blogs/, locale: en}
+    - {label: About, href: /about/, locale: en}
+    - {label: Artigos, href: /pt-br/blogs/, locale: pt-BR}
+    - {label: Sobre, href: /pt-br/about/, locale: pt-BR}
+    - {label: Artículos, href: /es/blogs/, locale: es}
+    - {label: Acerca de, href: /es/about/, locale: es}
   footer_links:
-    - {label: RSS, href: /index.xml}
-search:
-  label: Buscar artigos
-  placeholder: Buscar artigos
+    - {label: RSS, href: /index.xml, locale: en}
+    - {label: RSS, href: /pt-br/index.xml, locale: pt-BR}
+    - {label: RSS, href: /es/index.xml, locale: es}
 theme:
   builtin: true
   name: modern

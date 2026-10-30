@@ -1,19 +1,18 @@
-/* Customize these public Margo/Goshtoso theme tokens for your own identity. */
+/* Arai Hû colors follow the organization identity. */
 body {
-  --color-primary: #285b86;
+  --color-primary: #173b72;
   --color-on-primary: #ffffff;
-  --color-primary-dark: #8fc7ef;
-  --color-on-primary-dark: #142c40;
+  --color-primary-dark: #c7ff4a;
+  --color-on-primary-dark: #07111f;
 }
-.blog-home { max-width: 72rem; margin-inline: auto; }
-.blog-home > h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.1; }
-.blog-content { max-width: 68ch; margin-inline: auto; overflow-wrap: anywhere; }
+.blog-home, .blog-content { max-width: 68ch; margin-inline: auto; overflow-wrap: anywhere; }
+.blog-home > h1 { font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1.08; letter-spacing: -.035em; }
+.blog-home > p:first-of-type { font-size: 1.25rem; line-height: 1.6; }
+.blog-content { line-height: 1.75; }
 .blog-posts { list-style: none; padding: 0; display: grid; gap: 2rem; }
-.blog-home .blog-posts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .blog-post { min-width: 0; border-block-end: 1px solid currentColor; padding-block: 1.5rem; }
 .blog-post h2 { margin-block-start: .5rem; }
-.blog-post time { font-size: .85rem; }
+.blog-post time { font-size: .875rem; }
 .blog-post-image img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
-.blog-series, .blog-series-entry { border: 1px solid currentColor; border-radius: .4rem; padding: 1rem; margin-block: 2rem; }
+.blog-series, .blog-series-entry { border: 1px solid currentColor; padding: 1rem; margin-block: 2rem; }
 .blog-series-pagination { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-block: 2rem; }
-@media (max-width: 42rem) { .blog-home .blog-posts { grid-template-columns: 1fr; } }
