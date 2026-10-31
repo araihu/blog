@@ -1,0 +1,16 @@
+{
+  "asset": "content/blogs/meet-araihu/assets/cover-v1.webp",
+  "use": "Shared introductory article cover across English, Brazilian Portuguese and Spanish",
+  "generator": "OpenAI built-in image_gen",
+  "reference_images": [],
+  "prompt": "Use case: illustration-story. Asset type: editorial cover for the introductory article of Arai Hû's open-source software engineering blog, reused unchanged in English, Brazilian Portuguese and Spanish. Create one polished wide landscape illustration, 16:9 composition, ideally 2048 by 1152 pixels. Primary idea: practical independent software tools that fit together and keep working through stormy weather. Scene: a large sculptural dark storm cloud in the upper half, above a grounded arrangement of a few sturdy interlocking software modules in the lower half. Show abstract interface panels, simple API connector sockets and a small monitoring waveform as visual shapes, linked by a restrained lime-green path. The modules feel hand-built, independent but connected; the arrangement is readable at thumbnail size. A thin angular lime lightning stroke from the cloud becomes part of that linking path, suggesting useful energy rather than destruction. Art direction: sophisticated tactile editorial cut-paper and screen-print illustration, flat bold shapes, precise edges, subtly imperfect ink grain, a little dimensional layering, restrained detail and generous negative space. Palette: very dark ink navy #07111f, deep blue #173b72, warm off-white #f2f0e6, small electric lime #c7ff4a accents. Strong contrast, quiet confident composition, no neon glow, no glossy 3D, no stock-photo look. Keep the main cloud and linked modules in the central safe area so the composition survives social crops. Opaque background. No words, letters, numbers, captions, branding text, logos, watermarks, people, mascots, national flags, or product screenshots. This is a distinct editorial illustration, not a redesigned company logo.",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "encoding": "WebP, quality 85, method 6; dimensions and composition unchanged",
+  "localization": "Identical image bytes; localized cover_alt in each article",
+  "publication_state": "Drafts, without publishedAt",
+  "sha256": "f11a2af5a035032b8e259db6978811ea6406e61839bf3bb1ddaa102d67a17e77",
+  "bytes": 189348
+}

@@ -4,6 +4,8 @@ description = "Practical, open software in Go, and the decisions behind the tool
 language = "en"
 authors = ["Arai Hû"]
 tags = ["Open source"]
+cover = "./assets/cover-v1.webp"
+cover_alt = "A storm cloud sends a lime-green bolt into connected software modules with interface, monitoring and database symbols."
 draft = true
 +++
 

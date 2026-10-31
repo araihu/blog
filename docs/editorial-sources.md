@@ -12,6 +12,6 @@ Verified on 2026-10-30:
 
 The proposed editorial scope is project notes, design decisions and experiments. It is not a release schedule or a support commitment. No founder, team size, legal company status, commercial offering or success metric is asserted.
 
-Authorship is institutional `Organization`, linked to each localized `AboutPage`. No Person identity, portrait or credentials are inherited from Guigoes. The articles have no cover; the organization's social fallback remains separate from `BlogPosting.image`.
+Authorship is institutional `Organization`, linked to each localized `AboutPage`. No Person identity, portrait or credentials are inherited from Guigoes. All three introductory articles share an original generated editorial cover, with localized alternative text. The cover supplies the article image and social metadata; the organization's social fallback remains for other pages. See [cover provenance](artwork/meet-araihu-cover.json).
 
 All three articles remain drafts without `publishedAt`. Assign a real RFC 3339 publication timestamp and review the prose before changing `draft` to `false`.
