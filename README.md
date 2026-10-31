@@ -29,7 +29,7 @@ The preview defaults to port 1313. Check for an existing listener before startin
 - `assets/brand/provenance.json` records official artwork sources and checksums. Marks remain unmodified. Keep their NOTICE and license notices.
 - `assets/flags/` contains unchanged MIT-licensed SVGs from [flag-icons v7.6.0](https://github.com/lipis/flag-icons/tree/v7.6.0), with license and checksums. `site.yaml` explicitly maps English to the United States, Brazilian Portuguese to Brazil and Spanish to Spain.
 
-The native `locales.selector` setting controls the language menu. Set `enabled: false` to hide it without changing canonical URLs or `hreflang` links. Omit `flags` to keep text-only language choices. Flag images are local assets; language names remain visible.
+The native `locales.selector` setting controls the language menu. Set `enabled: false` to hide it without changing canonical URLs or `hreflang` links. Omit `flags` to keep text-only language choices. Configured flags use a plain compact button beside the theme and search controls, with full language names inside the menu.
 
 Each locale has its own article lists, tags, series and RSS feed. The single sitemap covers all indexable canonical pages. The default-language error document uses native `noindex, follow`, stays out of discovery and must return HTTP 404 for missing routes.
 
