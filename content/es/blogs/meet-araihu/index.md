@@ -4,6 +4,8 @@ description = "Software práctico y abierto en Go y las decisiones detrás de la
 language = "es"
 authors = ["Arai Hû"]
 tags = ["Código abierto"]
+cover = "./assets/cover-v1.webp"
+cover_alt = "Una nube de tormenta lanza un rayo verde lima sobre módulos de software conectados, con símbolos de interfaz, monitorización y base de datos."
 draft = true
 +++
 

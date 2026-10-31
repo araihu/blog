@@ -4,6 +4,8 @@ description = "Software prático e aberto em Go e as escolhas por trás das ferr
 language = "pt-BR"
 authors = ["Arai Hû"]
 tags = ["Código aberto"]
+cover = "./assets/cover-v1.webp"
+cover_alt = "Uma nuvem de tempestade lança um raio verde-lima sobre módulos de software conectados, com símbolos de interface, monitoramento e banco de dados."
 draft = true
 +++
 
