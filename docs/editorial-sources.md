@@ -14,4 +14,4 @@ The proposed editorial scope is project notes, design decisions and experiments.
 
 Authorship is institutional `Organization`, linked to each localized `AboutPage`. No Person identity, portrait or credentials are inherited from Guigoes. All three introductory articles share an original generated editorial cover, with localized alternative text. The cover supplies the article image and social metadata; the organization's social fallback remains for other pages. See [cover provenance](artwork/meet-araihu-cover.json).
 
-All three articles remain drafts without `publishedAt`. Assign a real RFC 3339 publication timestamp and review the prose before changing `draft` to `false`.
+Publication of all three articles was approved on 2026-10-31. Each version uses `publishedAt = "2026-10-31T23:48:31-03:00"` and `draft = false`.
