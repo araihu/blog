@@ -6,7 +6,8 @@ authors = ["Arai Hû"]
 tags = ["Código abierto"]
 cover = "./assets/cover-v1.webp"
 cover_alt = "Una nube de tormenta lanza un rayo verde lima sobre módulos de software conectados, con símbolos de interfaz, monitorización y base de datos."
-draft = true
+draft = false
+publishedAt = "2026-10-31T23:48:31-03:00"
 +++
 
 Arai Hû reúne proyectos independientes de software abierto desarrollados en Go. Nuestro trabajo incluye interfaces renderizadas en el servidor, publicación de APIs y monitorización autoalojada. Este blog es un espacio para explicar ese trabajo más allá de una nota de versión o un README.

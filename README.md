@@ -6,7 +6,7 @@ Canonical origin: `https://blog.araihu.com`. English uses `/`; Brazilian Portugu
 
 ## Editorial state
 
-The introductory `meet-araihu` article exists in all three languages. All versions are drafts without a publication timestamp. Review the prose and assign a real RFC 3339 `publishedAt` before setting `draft = false`. Drafts and their assets remain absent from the publication.
+The introductory `meet-araihu` article is approved for publication in all three languages, with the shared cover and a common `publishedAt` of `2026-10-31T23:48:31-03:00`. New drafts and their assets remain absent from the publication until approved and assigned a real RFC 3339 publication timestamp.
 
 Authorship is institutional `Arai Hû`, represented as `Organization`. Localized `/about/` pages use `AboutPage`. Source claims and editorial positioning are recorded in [editorial sources](docs/editorial-sources.md).
 
@@ -35,7 +35,7 @@ Each locale has its own article lists, tags, series and RSS feed. The single sit
 
 ## Deployment
 
-GitHub Actions is the only production publisher. Deployment remains disabled until the launch is approved and the destination is configured. No production credential is stored in this repository.
+GitHub Actions is the only production publisher. Deployment is controlled by `CLOUDFLARE_DEPLOY_ENABLED` and targets `https://blog.araihu.com`. No production credential is stored in this repository.
 
 Configure repository variables `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_WORKER_NAME=araihu-blog` and the `CLOUDFLARE_API_TOKEN` secret for this account and zone. Set `CLOUDFLARE_DEPLOY_ENABLED=true` only when ready to launch. The domain comes exclusively from `site.base_url`.
 

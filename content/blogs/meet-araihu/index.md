@@ -6,7 +6,8 @@ authors = ["Arai Hû"]
 tags = ["Open source"]
 cover = "./assets/cover-v1.webp"
 cover_alt = "A storm cloud sends a lime-green bolt into connected software modules with interface, monitoring and database symbols."
-draft = true
+draft = false
+publishedAt = "2026-10-31T23:48:31-03:00"
 +++
 
 Arai Hû brings together independent, open software projects built in Go. Our work covers server-rendered interfaces, API publishing and self-hosted monitoring. This blog is a place to explain that work beyond a release note or a README.

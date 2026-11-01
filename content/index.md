@@ -6,4 +6,4 @@ language = "en"
 
 Welcome to the Arai Hû blog. We write about the tools we build, the choices behind them, and what we learn along the way.
 
-The first articles are being prepared. In the meantime, [meet Arai Hû](/about/) or [explore our projects](https://araihu.com/en/).
+Start with [our introduction](/blogs/meet-araihu/) or [explore our projects](https://araihu.com/en/).

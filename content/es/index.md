@@ -6,4 +6,4 @@ language = "es"
 
 Este es el blog de Arai Hû. Escribimos sobre las herramientas que creamos, las decisiones que tomamos y lo que aprendemos por el camino.
 
-Los primeros artículos están en preparación. Mientras tanto, [conoce Arai Hû](/es/about/) o [explora nuestros proyectos](https://araihu.com/es/).
+Empieza por [nuestra presentación](/es/blogs/meet-araihu/) o [explora nuestros proyectos](https://araihu.com/es/).
