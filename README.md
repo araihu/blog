@@ -41,4 +41,6 @@ Configure repository variables `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_WORKER_NAME=
 
 The workflow builds and validates a publication, transfers its exact artifact to a separate job, rechecks it without rebuilding, checks current `main`, deploys and verifies the origin against that same artifact. Preserve the `production-verification-<commit>` receipt. Keep `dry_run=true` for a manual pipeline rehearsal. Do not add a competing Workers Builds production deployment.
 
+`hosting/_headers` is copied through Gazeta's native files configuration. Its `Cache-Control: no-transform` directive preserves the validated bytes, including when Cloudflare JavaScript Detections is enabled on the zone. See [Cloudflare's documented behavior](https://developers.cloudflare.com/cloudflare-challenges/challenge-types/javascript-detections/#if-your-origin-sends-a-no-transform-header).
+
 After a real deployment, run Google's Rich Results Test on one article in each language and the institutional page. A passed test does not establish indexing. No live deployment, Google validation or Search Console registration is implied by a local preview.
