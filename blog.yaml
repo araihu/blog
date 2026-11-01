@@ -10,6 +10,7 @@ page_types:
 files:
   - {source: assets/brand, target: assets/brand}
   - {source: assets/flags, target: assets/flags}
+  - {source: hosting/_headers, target: _headers}
 locales:
   pt-BR:
     articles: "Artigos"
